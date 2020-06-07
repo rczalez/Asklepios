@@ -154,6 +154,17 @@
       <Version>6.2.10</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Gestures.Core">
+      <HintPath>..\..\..\..\AppData\Roaming\Microsoft\Prague\PragueVersions\LatestVersion\Microsoft.Gestures.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Gestures.Protocol.Core">
+      <HintPath>..\..\..\..\AppData\Roaming\Microsoft\Prague\PragueVersions\LatestVersion\Microsoft.Gestures.Protocol.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Gestures.Proxy.Core">
+      <HintPath>..\..\..\..\AppData\Roaming\Microsoft\Prague\PragueVersions\LatestVersion\Microsoft.Gestures.Proxy.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
