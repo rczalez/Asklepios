@@ -27,11 +27,16 @@ namespace Asklepios
         public MainPage()
         {
             this.InitializeComponent();
+            LatMenu.SelectedItem = LatMenu.MenuItems.OfType<MUXC.NavigationViewItem>().First();
         }
 
         private void NavigationView_SelectionChanged(MUXC.NavigationView sender, MUXC.NavigationViewSelectionChangedEventArgs args)
         {
-          
+            var selectedItem = (MUXC.NavigationViewItem)args.SelectedItem;
+            string selectedItemTag = ((string)selectedItem.Tag);
+            string pageName = "Asklepios.Pages." + selectedItemTag;
+            Type pageType = Type.GetType(pageName);
+            contentFrame.Navigate(pageType);
 
 
         }

@@ -122,6 +122,42 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Exercise1.xaml.cs">
+      <DependentUpon>Exercise1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Exercise10.xaml.cs">
+      <DependentUpon>Exercise10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Exercise2.xaml.cs">
+      <DependentUpon>Exercise2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Exercise3.xaml.cs">
+      <DependentUpon>Exercise3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Exercise4.xaml.cs">
+      <DependentUpon>Exercise4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Exercise5.xaml.cs">
+      <DependentUpon>Exercise5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Exercise6.xaml.cs">
+      <DependentUpon>Exercise6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Exercise7.xaml.cs">
+      <DependentUpon>Exercise7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Exercise8.xaml.cs">
+      <DependentUpon>Exercise8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Exercise9.xaml.cs">
+      <DependentUpon>Exercise9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Profile.xaml.cs">
+      <DependentUpon>Profile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +166,8 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Hand1.png" />
+    <Content Include="Assets\Hand2.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -147,6 +185,54 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Exercise1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Exercise10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Exercise2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Exercise3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Exercise4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Exercise5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Exercise6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Exercise7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Exercise8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Exercise9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Profile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

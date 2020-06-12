@@ -15,12 +15,12 @@
                         IsSettingsVisible="False"
                         SelectionChanged="NavigationView_SelectionChanged">
         <muxc:NavigationView.MenuItems>
-            <muxc:NavigationViewItem Content="Inicio" ToolTipService.ToolTip="Inicio" Tag="">
+            <muxc:NavigationViewItem Content="Inicio" ToolTipService.ToolTip="Inicio" Tag="Home">
                 <muxc:NavigationViewItem.Icon>
                     <SymbolIcon Symbol="Home"/>
                 </muxc:NavigationViewItem.Icon>
             </muxc:NavigationViewItem>
-            <muxc:NavigationViewItem Content="Perfil" ToolTipService.ToolTip="Perfil" Tag="">
+            <muxc:NavigationViewItem Content="Perfil" ToolTipService.ToolTip="Perfil" Tag="Profile">
                 <muxc:NavigationViewItem.Icon>
                     <SymbolIcon Symbol="Contact"/>
                 </muxc:NavigationViewItem.Icon>
@@ -30,52 +30,52 @@
                     <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE7FC;"/>
                 </muxc:NavigationViewItem.Icon>
                 <muxc:NavigationViewItem.MenuItems>
-                    <muxc:NavigationViewItem Content="Ejercicio 1" ToolTipService.ToolTip="Ejercicio 1" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 1" ToolTipService.ToolTip="Ejercicio 1" Tag="Exercise1">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Ejercicio 2" ToolTipService.ToolTip="Ejercicio 2" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 2" ToolTipService.ToolTip="Ejercicio 2" Tag="Exercise2">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Ejercicio 3" ToolTipService.ToolTip="Ejercicio 3" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 3" ToolTipService.ToolTip="Ejercicio 3" Tag="Exercise3">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Ejercicio 4" ToolTipService.ToolTip="Ejercicio 4" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 4" ToolTipService.ToolTip="Ejercicio 4" Tag="Exercise4">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Ejercicio 5" ToolTipService.ToolTip="Ejercicio 5" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 5" ToolTipService.ToolTip="Ejercicio 5" Tag="Exercise5">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Ejercicio 6" ToolTipService.ToolTip="Ejercicio 6" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 6" ToolTipService.ToolTip="Ejercicio 6" Tag="Exercise6">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Ejercicio 7" ToolTipService.ToolTip="Ejercicio 7" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 7" ToolTipService.ToolTip="Ejercicio 7" Tag="Exercise7">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Ejercicio 8" ToolTipService.ToolTip="Ejercicio 8" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 8" ToolTipService.ToolTip="Ejercicio 8" Tag="Exercise8">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Ejercicio 9" ToolTipService.ToolTip="Ejercicio 9" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 9" ToolTipService.ToolTip="Ejercicio 9" Tag="Exercise9">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Ejercicio 10" ToolTipService.ToolTip="Ejercicio 10" Tag="">
+                    <muxc:NavigationViewItem Content="Ejercicio 10" ToolTipService.ToolTip="Ejercicio 10" Tag="Exercise10">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="LikeDislike"/>
                         </muxc:NavigationViewItem.Icon>
@@ -83,6 +83,7 @@
                 </muxc:NavigationViewItem.MenuItems>
             </muxc:NavigationViewItem>
         </muxc:NavigationView.MenuItems>
+        <Frame x:Name="contentFrame" />
     </muxc:NavigationView>
 
 </Page>
