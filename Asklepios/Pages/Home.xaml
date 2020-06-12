@@ -8,10 +8,14 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+
     <Grid>
+
+        <Image Height="217" Width="346" Source="/Assets/Hand1.png" VerticalAlignment="Top"/>
+        <Image Height="217" Width="346" Source="/Assets/Hand2.png"  VerticalAlignment="Bottom"/>
+
         <TextBlock HorizontalAlignment="Center" Text="Welcome to Asklepios" TextWrapping="Wrap" VerticalAlignment="Center" Foreground="#FF018555" FontSize="96" FontWeight="Bold" TextAlignment="Center"/>
-        <Image Height="217" Width="346" Margin="577,219,577,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment, Height" Source="/Assets/Hand1.png" Stretch="Uniform"/>
-        <Image Height="217" Width="346" Margin="577,564,577,0" VerticalAlignment="Top" d:LayoutOverrides="Height" Source="/Assets/Hand2.png" Stretch="Uniform"/>
+
 
     </Grid>
 </Page>
