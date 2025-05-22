@@ -1,6 +1,6 @@
 # Asklepios - Therapy software for people with osteoarthritis in hands.
 ![Logo Image Asklepios](/Images/logo.png)
-As a complement of a conventional hand therapy performed by a therapist, Asklepios is a prototype built for people with osteoarthritis. The exercises performed in a conventional therapy will be now controlled by a Kinect V2 sensor and using the Project Gesture SDK where the custom gestures are built, giving a new opportunity to add more adherence to the patient thought each session.
+As a complement to conventional hand therapy performed by a therapist, Asklepios is a prototype designed for people with osteoarthritis. The exercises typically performed during therapy are now monitored using a Kinect V2 sensor, along with the Project Gesture SDK, which enables the creation of custom gestures. This approach offers a new opportunity to increase patient engagement throughout each session.
 
 <b>What we're using to create Asklepios?</b>:
 
